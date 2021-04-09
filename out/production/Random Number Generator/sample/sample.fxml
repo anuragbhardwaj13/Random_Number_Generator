@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?Made By Anurag Bhaedwaj
+               1914231
+                cse 4x?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints/>
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints/>
+   </rowConstraints>
+   <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="403.0" prefWidth="397.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="411.0" layoutX="-3.0" layoutY="-3.0" stroke="BLACK"
+                 strokeType="INSIDE" width="417.0">
+         <fill>
+            <LinearGradient startX="0.23300970873786409" startY="0.2912621359223301">
+               <stops>
+                  <Stop color="#4164ff"/>
+                  <Stop color="#ff08b5b8" offset="1.0"/>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="26.0" layoutY="25.0" prefHeight="69.0" prefWidth="343.0" text="Random Number Generator"
+             textAlignment="CENTER">
+         <font>
+            <Font name="Segoe UI" size="27.0"/>
+         </font>
+      </Label>
+      <Button fx:id="generateButton" layoutX="136.0" layoutY="250.0" mnemonicParsing="false"
+              onAction="#generateButton" prefHeight="45.0" prefWidth="120.0" text="Generate">
+         <font>
+            <Font size="21.0"/>
+         </font>
+      </Button>
+      <TextField fx:id="textField" layoutX="155.0" layoutY="141.0" prefHeight="74.0" prefWidth="85.0">
+         <font>
+            <Font size="34.0"/>
+         </font>
+      </TextField>
+   </AnchorPane>
+</GridPane>
